@@ -1,0 +1,31 @@
+
+@media {
+    .dress-code {
+        flex-direction: column;
+    }
+
+    article {
+        width: 100%;
+    }  
+}
+
+@media {
+    .product-item {
+        width: 100%; 
+    }
+}
+
+@media (max-width: 768px) {
+    nav ul {
+        gap: 20px;
+    }
+
+    .dress-code {
+        flex-direction: column;
+    }
+
+    article {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
